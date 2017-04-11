@@ -1,0 +1,55 @@
+
+<!-- User Edit Form  -->
+  <div class="row">
+      <div class="col-lg-12">
+          <section class="panel box_shadow">
+              <header class="panel-heading">
+                 User Edit Form
+              </header>
+              <div class="panel-body">
+                  <div class="form">
+                      <form class="form-horizontal" method="get" action="">
+                          <div class="form-group ">
+                              <label for="email" class="control-label col-lg-2">Email <span class="required">*</span></label>
+                              <div class="col-lg-10">
+                                  <input class="form-control " id="email" name="email" type="email" />
+                              </div>
+                          </div>
+                          <div class="form-group ">
+                              <label for="password" class="control-label col-lg-2">Password <span class="required">*</span></label>
+                              <div class="col-lg-10">
+                                  <input class="form-control " id="password" name="password" type="password" />
+                              </div>
+                          </div>
+                          <div class="form-group ">
+                              <label for="select" class="control-label col-lg-2">Role <span class="required">*</span></label>
+                              <div class="col-lg-10">
+                                   <select class="form-control">
+                                      <option>Role1</option>
+                                      <option>Role2</option>
+                                      <option>Role3</option>
+                                      <option>Role4</option>
+                                      <option>Role5</option>
+                                    </select>
+                              </div>
+                          </div>
+                          <div class="form-group ">
+                              <label for="is_active" class="control-label col-lg-2 col-sm-3">Is-Active <span class="required">*</span></label>
+                              <div class="col-lg-10 col-sm-9">
+                                  <input  type="checkbox" style="width: 20px" class="form-control" name="agree" />
+                              </div>
+                          </div>
+                          <div class="form-group">
+                              <div class="col-lg-offset-2 col-lg-10">
+                                  <a (click)="commonService.nav('userdetail')" class="btn btn-primary">Continue</a>
+                                  <button class="btn btn-default" type="button">Cancel</button>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </section>
+      </div>
+  </div>
+<!-- User Edit Form  -->
+         
